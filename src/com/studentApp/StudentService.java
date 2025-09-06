@@ -169,12 +169,12 @@ public class StudentService {
             return;
         }
 
-        // Header
+
         System.out.printf("%-5s %-20s %-25s %-5s %-20s %-6s%n",
                 "ID", "Name", "Email", "Age", "Course", "GPA");
         System.out.println("-".repeat(85));
 
-        // Student rows
+
         for (Student student : students) {
             System.out.printf("%-5d %-20s %-25s %-5d %-20s %-6.2f%n",
                     student.getId(),
