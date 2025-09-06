@@ -4,15 +4,6 @@ import java.util.Scanner;
 
 
 public class StudentDatabaseApp {
-    private StudentService studentService;
-    private Scanner scanner;
-    private InputValidator validator;
-
-    public StudentDatabaseApp() {
-        this.scanner = new Scanner(System.in);
-        this.validator = new InputValidator(scanner);
-        this.studentService = new StudentService();
-    }
 
     private void initialize() {
         System.out.println("=".repeat(50));
